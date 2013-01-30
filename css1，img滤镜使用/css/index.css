@@ -1,0 +1,17 @@
+﻿.style1{
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+	font-style:italic;
+}
+/*使用滤镜使图片变黑白*/
+img{
+	filter:grey;
+}
+/*使用滤镜，鼠标悬停的时候图片恢复彩色*/
+a:link img{
+	filter:grey;
+}
+a:hover img{
+	filter:"";
+}
