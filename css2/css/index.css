@@ -1,0 +1,65 @@
+﻿/*css标准流与非标准流：
+标准流：网页布局中，写在前面的元素出现在前面，写在后面的元素出现在后面，称为默认布局即标准流
+非...：在实际网页布局中，需要用到，让某个元素脱离其本身位置
+盒子模型中常见属性：1.content(内容)，2.padding(填充)，3.border(边框)，4.margin(边界)
+1内部的东西
+2内部东西与div边框之间，想象为填充物
+4指两个元素(div)之间的距离
+*/
+body{
+	/*border:1px red solid;给body指定宽度，颜色，样式，顺序随意
+	width:100%;
+	height:700px;（第二部分时）*/
+	margin:0px auto;/*0上下为0，左右居中*/
+	padding:0px;
+}
+.style1{
+	width:99px;
+	height:104px;
+	border:3px blue solid;
+	margin-top:10px;
+	margin-left:100px;
+	border-top-color:aqua;
+}
+.style1 img{
+	/*margin-left:10px;
+	margin-top:10px;
+	—两者效果一样，但是padding可能会把div盒子撑大，margin则不会*/
+	padding-left:10px;
+	padding-top:10px;
+}
+/*
+html元素都可视为盒子
+盒子模型参照物不一样使用的css属性也不一样
+不希望破坏外观，尽量margin布局，margin过大内容被挤出去，盒子本身不变
+*/
+/*用于控制显示的位置，大盒子*/
+.div1{
+	width:500px;
+	height:355px;
+	border:1px solid orchid;
+	margin-left:100px;
+	margin-top:20px;
+}
+/*faceul控制显示图片区域的宽度和高度，包括图片的盒子*/
+.faceul{
+	width:350px;
+	height:310px;
+	border:1px red solid; 
+	list-style-type:none;
+}
+/*用于控制单个图片区域（图片的框框）的大小*/
+.faceul li{
+	width:66px;
+	height:94px;
+	border:1px blue solid;
+	float:left;/*左浮动*/
+	margin-left:6px;
+	margin-top:40px;
+}
+/*图片本身*/
+.faceul img{
+	width:60px;
+	margin-left:5px;
+	margin-top:6px;
+}

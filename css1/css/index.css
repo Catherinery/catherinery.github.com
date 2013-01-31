@@ -1,0 +1,107 @@
+﻿/*使用滤镜使图片变黑白*/
+img{
+	filter:grey;
+}
+/*使用滤镜，link是本身链接，hover是鼠标悬停的时候图片恢复彩色*/
+a:link img{
+	filter:grey;
+}
+a:hover img{
+	filter:"";
+}
+/*.class(类)选择器*/
+.style{
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+	font-style:italic;
+}
+.style1{
+	background-color:pink;
+	font-weight:bold;
+	font-size:20px;
+	color:black;
+}
+/*id选择器*/
+#style2{
+	font-size:30px;
+	background-color:silver;
+	color:black;
+}
+/*html的选择器,即网页默认，前面没有“.”“#”*/
+body{
+	color:#800000;
+	font-size:30px;
+}
+/*优先级：id>class>html，！！一个元素最多一个id，可多个class，中间以空格隔开！！！
+冲突时，以写在css中最后出现的class选择器的样式为标准
+多个class或者id中有共同部分提取出来写一起，例如：“.s1,.s2,.s3{}”*/
+
+/*修改超链接样式
+link链接原效果
+hover鼠标悬停效果
+visited访问以后效果*/
+a:link{
+	color:black;
+	text-decoration:none
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	color:red;
+}
+/*通配符选择器对内外边距清零，margin外边距*/
+*{
+	margin:0px;
+	padding:0px;
+/*margin:若只给出3个值，则顺序：上，右左，下;*/	
+}
+/*父子选择器，尽量避免太多层，id、类选择器都可用*/
+#style2 span{
+	font-style:italic;
+	color:red;
+}
+#style2 span span{
+	color:blue;
+}
+/*例子说明，
+	在a之下，class与a冲突以a为准
+	id与a冲突以id为准
+	此为html选择器*/
+a:link span{
+	font-size:24px;
+	text-decoration:none;
+	font-family:华文新魏;
+	color:red;
+}
+a:hover span{
+	text-decoration:underline;
+	font-size:40px;font-family:宋体;
+}
+a:visited span{
+	color:gray;
+}
+.practise1{
+	font-weight:bold;
+	font-style:italic;
+	color:blue;
+}
+#practise2{
+	color:orange;
+	font-size:30px;
+	background-color:gray;
+}
+/*span：行内元素，只占内容的宽度，不会换行，只容纳文本和其他行内元素
+  div/p：块元素，不管内容多少，要换行，且占满整行，容纳文本，行元素，块元素*/
+.s1{
+	background-color:pink;
+}
+.s2{
+	background-color:khaki;
+	width:200px;
+}
+.s3{
+	background-color:aquamarine;
+	width:190px;
+}
