@@ -1,0 +1,32 @@
+﻿.s1{
+	width:80px;
+	height:40px;
+	background-color:gray;
+	float:left;
+	margin-left:10px;
+}
+/*相对、绝对定位*/
+#special{
+	/*position:relative;*/ /*这里使用了“相对定位”*/
+	position:absolute;/*这里使用了“绝对定位”，
+可以发现“内容2”的参照点变成了body左上顶点（见下面absolute定位特点*/
+	left:40px;/*在原来的位置再向右移动的距离(可为负数)*/
+	top:50px;/*在原来的位置再向下移动的距离*/
+}
+/*内容2以555这个盒子的左上顶点为参照点，进行定位*/
+.s2{
+	width:150px;
+	height:70px;
+	background-color:pink;
+	float:left;
+	position:relative;
+	left:150px;
+	top:50px;
+}
+/*定位方式有：
+1.static定位：默认定位方式，对static而言，left&top属性没有效果
+2.relative：元素框移动某个距离（left&top）
+	ps.参照点是该元素原先应该出现的位置进行移动(s2、原special)
+3.absolute：相当于元素从原来位置脱离，后面元素可占有其让出的空间(现在的special)
+	ps.absolute定位是以离自己最近的非标准流盒子为准
+4.fixed：表现类似于absolute，但是它只会以body为准进行定位*/

@@ -1,0 +1,141 @@
+﻿/*高度不定暂时不写，可自适应*/
+body{
+	width:950px;
+	height:1000px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	font-size:12px;
+}
+.top{
+	width:950px;
+	height:22px;
+	background-color:bisque;
+}
+/*登陆部分*/
+.login{
+	width:416px;
+	height:22px;
+	background-color:aquamarine;
+	float:left;
+}
+/*设为首页面*/
+.indexpage{
+	width:105px;
+	height:20px;
+	background-color:silver;
+	float:left;
+	margin-left:80px;
+}
+/*超链接*/
+.myhref{
+	width:250px;
+	height:20px;
+	float:right;
+	background-color:lightsteelblue;
+}
+/*logo*/
+.logo{
+	width:143px;
+	height:67px;
+	background-color:yellow;
+	float:left;
+	margin-top:5px;
+}
+/*导航navi*/
+.navi{
+	width:807px;;
+	height:67px;
+	float:left;
+	background-color:mediumspringgreen;
+	margin-top:5px;
+}
+/*广告*/
+.ad{
+	width:950px;
+	height:212px;
+	/*background-color:khaki;*/
+	margin-top:5px;
+	border:1px silver solid;
+	float:left;/*若是不写这个左浮动，则该div会紧贴上一行，margin-top不起作用*/
+}
+/*招生广告*/
+.stuad{
+	width:130px;
+	height:196px;
+	background-color:#FC7E8C;
+	float:left;
+	margin:5px 0px 0px 5px;;
+}
+/*ad2*/
+.ad2{
+	width:453px;
+	height:196px;
+	margin:5px 0 0 8px;
+	background-color:antiquewhite;
+	float:left;
+}
+/*房地产广告*/
+.housead{
+	height:196px;
+	width:150px;
+	background-color:lemonchiffon;
+	margin:5px 0 0 12px;
+	float:left;
+}
+/*图片广告*/
+.picad{
+	width:185px;
+	height:212px;
+	float:right;
+	/*background-color:lightsteelblue;*/
+	border-left:1px silver solid;
+	text-align:center;/*这边使用padding-top使得图片下压会破坏元div所以才用父子选择器*/
+}
+.picad img{
+	margin-top:10px;
+}
+/*sogoubg搜索框的背景*/
+.sogoubg{
+	width:950px;
+	height:60px;
+	border:1px #A9CFE3 solid;
+	float:left;
+	margin:5px auto 0px;
+}
+/*sogou*/
+.sogou{
+	width:133px;
+	height:60px;
+	background-color:aqua;
+	float:left;
+	border-left:1px white solid;
+}
+/*sogou_logo*/
+.sogou_logo{
+	width:118px;
+	height:34px;
+	margin:14px auto 7px;
+}
+.search{
+	width:465px;
+	height:32px;
+	margin-top:13px;
+	float:left;
+	background-color:cornflowerblue;
+}
+.hot{
+	width:235px;
+	height:42px;
+	float:left;
+	margin:8px 0 0 14px;
+	text-align:left;
+	background-color:antiquewhite;
+}
+.icon{
+	width:93px;
+	float:right;
+	border-right:1px white solid;
+	height:58px;
+	background-color:aquamarine;
+}
+

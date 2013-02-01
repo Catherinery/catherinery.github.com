@@ -1,0 +1,84 @@
+﻿body{
+	margin:0 auto;
+	width:1000px;
+	border:1px blue solid;
+	font-size:12px;
+}
+.div{
+	width:380px;
+	height:480px;
+	/*border:1px gray solid;*/
+}
+/*定义几个常用字体样式*/
+.font1{
+	font-size:20px;
+	font-weight:bold;
+	margin-left:10px;
+}
+.span{
+	/*background-color:pink;*/
+	display:block;
+	margin-top:5px;
+}
+.span a{
+	margin-left:202px;
+	text-decoration:none;
+}
+.faceul{
+	width:380px;
+	height:103px;
+	/*background-color:silver;*/
+	list-style-type:none;
+	padding:0px;
+}
+.faceul li{
+	float:left;
+	width:115px;
+	height:110px;
+	/*background-color:pink;*/
+	margin-left:8px;
+	text-align:center;/*text-align表示放在该元素的其他元素会左右居中*/
+}
+.faceul img{
+	margin-top:3px;
+	width:65px;
+	height:65px;
+	padding-bottom:10px;
+}
+.faceul a{
+	text-decoration:none;
+}
+/*也可以定义几种超链接样式，直接将“.fanceul a”与“.span a”合并*/
+
+/*第二部分：浮动（无论块元素还是行元素，都适用）
+左浮动，右浮动，清除浮动(不希望别的元素在某个元素的左右即可使用，方法:clear:right/left/both)
+浮动必要性：浮动在默认情况下是纵向排列
+若有一个div过大，则会卡住本该浮动到其下方的div，div会按顺序见例子div_special*/
+.div1{
+	width:140px;
+	height:50px;
+	border:1px solid blue;
+	background-color:pink;
+	margin-top:5px;
+	float:left;/*左浮动：尽量向左移动，即让出右边的空间给下一个元素显示*/
+}
+#div2{
+	float:right;/*右浮动：让该元素尽量右移，直到碰到其父元素右边界*/
+}
+.div3{
+	width:610px;
+	height:120px;
+	border:2px orange solid;
+	padding:0px;
+	margin:10px 0px 0px 10px;
+}
+.div_spe{
+	height:60px;
+}
+.div4{
+	width:610px;
+	height:150px;
+	border:2px solid aqua;
+	padding:0px;
+	margin:10px 0px 0px 10px;
+}
