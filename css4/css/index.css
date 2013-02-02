@@ -38,10 +38,10 @@ h2{
 }
 /*menu,图片、专题等*/
 .menu{
-	width:220px;
+	width:235px;
 	background-color:white;
 	float:left;
-	margin:27px 24px 0 160px;
+	margin:27px 24px 0 145px;
 	text-align:left;
 	padding:6px;
 	/*text-align:center;*/
