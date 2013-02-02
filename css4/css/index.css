@@ -1,0 +1,186 @@
+﻿body{
+	width:800px;
+	background-color:#DCDCDC;
+	padding:0px;
+	margin:0px auto 0px;
+	color:#4F4E4E;
+}
+a:link{
+	color:#FF4F73;
+	text-decoration:none;
+}
+h2{
+	color:#777;
+	font-size:14px;
+	font-weight:normal;
+}
+/*顶部广告*/
+.topad{
+	width:790px;
+	height:80px;
+	background-color:#CCCCCC;
+	margin-left:5px;
+}
+/*inner，包括logo、menu、login*/
+.inner{
+	height:84px;
+	width:800px;
+	/*background-color:pink;*/
+	margin:0 auto;
+}
+/*it.me部分*/
+.logo{
+	height:50px;
+	width:160px;
+	/*background-color:aliceblue;*/
+	float:left;
+	margin-top:17px;
+}
+/*menu,图片、专题等*/
+.menu{
+	width:220px;
+	background-color:white;
+	float:left;
+	margin:27px 24px 0 160px;
+	text-align:left;
+	padding:6px;
+	/*text-align:center;*/
+}
+.menu li,.login li,.right li{
+	list-style-type:none;
+	display:inline;
+}
+/*登陆注册*/
+.login{
+	width:224px;
+	height:30px;
+	/*background-color:bisque;*/
+	float:right;
+	margin-top:17px;;
+}
+.login ul{
+	padding:1px 0;
+}
+.login ul a{
+	text-decoration:underline;
+}
+/*推荐专辑整体部分*/
+.main{
+	width:550px;
+	height:500px;
+	background-color:white;
+	float:left;
+	text-align:left;
+}
+/*右边小链接*/
+.rside{
+	width:223px;
+	height:350px;
+	background-color:lemonchiffon;
+	float:right;
+}
+/*推荐_pagehead左右部分*/
+.phead{
+	float:left;
+}
+.right{
+	float:right;
+	text-align:right;
+}
+.right ul{
+	margin:10px auto;
+}
+#active1{
+	background-color:#FF5F83;
+	margin-right:-5px;
+}
+#active1 a{
+	color:white;
+}
+.right li{
+	display:inline;
+	font-size:13px;
+	font-weight:bold;
+	padding:2px 7px;
+	background-color:#EEE;
+}
+/*以上两个标签相同的部分*/
+.phead,.right{
+	width:215px;
+	margin:5px 20px 5px;
+	/*background-color:aqua;*/
+	height:40px;	
+}
+/*图片整体盒子*/
+.pics{
+	width:245px;
+	height:170px;
+	margin-left:20px;
+	margin-bottom:20px;
+	float:left;
+	background-color:#DDDDDD;
+}
+/*头像图片*/
+.imgs{
+	position:relative;
+	width:102px;
+	height:85px;
+	display:block;
+	background-color:cyan;
+	border:0px;
+}
+/*右上角的图标
+.pic_love{
+	position:absolute;
+	right:20px;
+	top:15px;
+	background:url('../images/icon_heart.png') no-repeat 0 -3px;
+}*/
+/*图片下面的文字*/
+.udimgs{
+	margin-top:10px;
+}
+/*框框里面的东西整体*/
+.in_pic{
+	margin:0 20px 20px 0;
+	float:left;
+	width:225px;
+	height:140px;
+	padding:15px 10px;
+	position:relative;
+	display:inline;
+}
+/*页尾*/
+.pages{
+	width:510px;
+	margin-left:20px;
+	padding:14px 0;
+	text-align:center;
+	background-color:aqua;
+	float:left;
+}
+.search{
+	width:213px;
+	height:25px;
+	margin-bottom:20px;
+	background-color:aquamarine;
+	float:left;
+}
+.blog{
+	width:213px;
+	height:85px;
+	margin-bottom:25px;
+	background-color:#7AD8F8;
+	float:left;
+}
+.r_uls{
+	width:150px;
+	list-style-type:none;
+	text-align:left;
+	float:left;
+}
+.r_uls li{
+	margin-bottom:10px;
+	background-color:#FF5F83;
+	text-align:left;
+}
