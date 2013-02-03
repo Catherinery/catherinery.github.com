@@ -1,0 +1,284 @@
+﻿body,p,h1,h2,h3,h4,h5,h6,ul,ol,pre,form{
+	margin:0px;;
+}
+h1{
+	line-height:1.5;
+	font-family:"Microsoft YaHei UI";
+}
+h2{
+	font-size:1em;
+	font-family:"Microsoft YaHei UI";
+	font-weight:normal;
+}
+a:link{
+	color:#0078B6;
+	text-decoration:none;
+}
+input{
+	padding:0px;
+	margin:0px;
+	font-size:100%;
+	line-height:normal;
+}
+body{
+	display:block;
+	color:#666;
+	font-size:14px;
+	line-height:1.5;
+	min-width:960px;
+}
+/*顶部*/
+.guokr{
+	background:url('../images/4-guokr-bg.png') no-repeat scroll center top #D6EFF9;
+	height:10px;
+}
+.container{
+	width:960px;
+	margin:0 auto;
+	/*background-color:aquamarine;*/
+}
+/*logo、注册、search、导航Navi等*/
+.head{
+	height:100px;
+	width:960px;
+	position:relative;
+	margin:25px auto 0px;
+	/*background-color:aliceblue;*/
+}
+/*logo部分*/
+.logo{
+	float:left;
+	background:url('../images/4-logo.png') no-repeat scroll 0 0 transparent;
+	height:35px;
+	width:118px;
+}
+/*搜索框*/
+.search{
+	margin-top:5px;
+	padding-left:30px;
+	display:block;
+	float:left;
+	/*background-color:antiquewhite;*/
+}
+/*搜索框输入文字*/
+.intext{
+	font-size:12px;
+	width:215px;
+	line-height:1.2;
+	padding:6px 0 4px 5px;
+	height:15px;
+	vertical-align:middle;
+	border:1px #DDD solid;
+	border-right:0;
+	box-shadow:1px 1px 1px #DDD inset;
+	/*background-color:aqua;*/	
+}
+/*搜索的小图标*/
+.pic{
+	margin-left:-5px;
+	vertical-align:middle;
+	text-indent:-9999px;
+	border:0px;
+	width:35px;
+	height:27px;
+	background:url('../images/4-icon.png') transparent no-repeat;
+	background-position:0 -60px;
+	display:inline-block;
+}
+/*立即注册*/
+.become{
+	float:right;
+	margin-left:20px;
+	padding:0 12px;
+	line-height:32px;
+	color:white;
+	width:auto;
+	background:url('../images/4-button-ext.png') repeat-x 0 0;
+	position:relative;
+	display:inline-block;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	font-family:"Microsoft YaHei UI"
+}
+.become:before,.become:after{
+	background:url('../images/4-button.png') no-repeat -74px 0;
+	content:"";
+	height:32px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:10px;
+}
+.become:after{
+	background-position:-137px 0;
+	left:auto;
+	right:0;
+	width:10px;
+}
+/*成为果壳青年的图片*/
+.bpic{
+	float:right;
+	margin:7px 0 0;
+	border:0;	
+}
+.head,.navi{
+	float:left;
+	clear:left;
+}
+/*导航*/
+.navi{
+	color:#2AA4CE;
+	font-family:"Microsoft YaHei UI";
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+li{
+	list-style:none;
+	float:left;
+}
+.navi a{
+	float:left;
+	color:#2AA4CE;
+	font-size:20px;
+	padding:10px 40px 15px 20px;
+}
+/*用户登录的整体范围*/
+.login{
+	width:244px;
+	height:20px;
+	background-color:aqua;
+	font-size:12px;
+	margin-top:25px;
+	float:right;
+}
+/*内容整体*/
+.main{
+	display:block;
+	min-height:1%;
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+}
+.main:after{
+	content:".";
+	display:block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+/*左边部分*/
+.mleft{
+	width:686px;
+	border:1px #E9E9E9 solid;
+	box-shadow:1px 1px 4px #E9E9E9;
+	border-radius:3px;
+	float:left;
+}
+/*编辑推荐*/
+.edit,.mleft{
+	background-image:url('../images/4-home-title.jpg');
+	margin-top:10px;
+	padding:0 0 10px 9px;
+	line-height:19px;
+}
+.edit{
+	color:#4BA733;
+	background:url('../images/main-title.png') 0 bottom no-repeat;
+}
+.edit h1{
+	display:block;
+	font-size:18px;
+	float:left;
+	font-weight:normal;
+}
+/*la是左边的文章,total是全部范围*/
+.total{
+	margin:0px -2px;
+	display:block;
+	min-height:1%;
+	width:688px;
+	float:left;
+}
+.total:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.la{
+	width:463px;
+	float:left;
+	margin-top:20px;
+}
+.article{
+	height:180px;
+	margin:25px 0 -1px 0;
+	padding:0 5px 40px 25px;
+	border-bottom:1px #E9E9E9 solid;
+	color:#999;
+	font-size:12px;
+	line-height:22px;
+	margin:10px 0 9px;
+}
+.aaa{
+	height:129px;
+	float:left;
+	margin-right:20px;
+}
+.article img{
+	width:166px;
+	height:129px;
+	border:0;
+	float:left;
+}
+.ai{
+	height:129px;
+	float:left;
+	margin-right:20px;
+}
+.article h2{
+	line-height:22px;
+
+}
+.article h2 a{
+	font-size:16px;
+	color:#999;
+	font-weight:normal;
+	word-wrap:break-word;
+}
+.afrom{
+	margin:10px 0 9px;
+}
+.right{
+	width:194px;
+	margin-top:23px;
+	float:right;
+	border-left:1px #E9E9E9 solid;
+	/*background-color:aqua;*/
+}
+.side{
+	font-size:12px;
+	width:212px;
+	float:right;
+	padding-left:30px;
+	background-color:aqua;
+	height:300px;
+	margin-top:18px;
+}
+.foot{
+	font-size:12px;
+	color:#999;
+	background-color:white;
+	position:relative;
+	z-index:100;
+	clear:both;
+	line-height:35px;
+	margin:30px auto 0;
+	padding-bottom:20px;
+	text-align:center;
+	width:960px;
+}
