@@ -1,0 +1,149 @@
+﻿body,h1,h2,h3,ul,li,form,p,img{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body,select,input,h1,h3{
+	font-size:12px;
+}
+body{
+	line-height:1.666;
+	background-color:white;
+}
+a:link{
+	color:#007BBB;
+}
+body,header,div,section,footer,nav{
+	display:block;
+}
+ul{
+	list-style:none;
+}
+.container{
+	width:960px;
+	margin:0 auto;
+}
+.header{
+	height:84px;
+	position:relative;
+}
+.header a{
+	color:#888;
+	text-decoration:none;
+}
+.logo,.slogo,.links{
+	position:absolute;
+}
+.logo{
+	top:23px;
+	left:-15px;
+}
+.slogo{
+	left:114px;
+	top:29px;
+	width:260px;
+	height:40px;
+	background:url('../images/global.png') -2px -191px no-repeat; 
+}
+.links{
+	right:0px;
+	top:40px;
+}
+.item{
+	margin-left:12px;
+	display:inline-block;
+	vertical-align:middle;
+}
+#ra{
+	color:red;
+}
+.content{
+	height:486px;
+	position:relative;
+	background:url('../images/bg.jpg') no-repeat;
+}
+.tab{
+	position:absolute;
+	z-index:2;
+	left:255px;
+	top:66px;
+	width:230px;
+	height:340px;
+}
+.tablist{
+	display:block;
+	width:210px;
+	vertical-align:middle;
+	background:url('../images/tab.gif') no-repeat;
+}
+.m1{
+	background-position:-513px -1px;
+	height:102px;
+}
+.m2{
+	background-position:-1px -103px;
+	height:100px;
+}
+.myeah{
+	background-position:-1px -203px;
+}
+.login{
+	position:absolute;
+	left:464px;
+	top:50px;
+	width:500px
+}
+.hd{
+	position:relative;
+	z-index:1;
+	margin-left:41px;
+	margin-top:24px;
+	width:265px;
+	height:32px;
+	background:url('../images/global.png') -384px 0 no-repeat;
+}
+.bd{
+	margin-left:41px;
+	margin-top:6px;
+}
+.name{
+	float:left;
+	width:44px;
+	line-height:30px;
+	margin-right:5px;
+}
+.ipt{
+	background-color:#F1FAFF;
+	vertical-align:middle;
+	margin-right:10px;border:1px #878787 solid;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 3px 6px;
+	width:182px;
+}
+input{
+	line-height:normal;
+	margin:0;
+	padding:0;
+}
+.at{
+	vertical-align:middle;
+	font-weight:bold;
+	font-size:20px;
+	margin-right:8px;
+}
+.domain{
+	vertical-align:middle;
+	font-size:14px;
+	font-weight:bold;
+}
+.item{
+	padding:8px 0;
+}
+.item-ver{
+	padding:4px 0 8px 0;
+}
+.sel{
+	margin-top:4px;
+	width:190px;
+}
