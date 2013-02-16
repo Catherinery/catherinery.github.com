@@ -1,0 +1,378 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+	color:#333;
+	font:12px/1.5 微软雅黑,宋体,Tahoma,Helvetica,Arial,sans-serif;
+	background: #F2EDDF url('../images/body_bottom_bg.png') left bottom repeat-x;
+}
+div{
+	display:block;
+}
+h1{
+	font-weight:bold;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}
+.top{
+	position:relative;
+	z-index:99;
+	background:url('../images/body_bg.png') 0 51px repeat-x #F2EDDF;
+}
+.tophead{
+	width:100%;
+	height:50px;
+	background:url('../images/desk_bg.jpg') center bottom repeat-x;
+	overflow:hidden;
+}
+.webhead{
+	height:50px;
+	background:url('../images/top_black_mask2.png') center top repeat-y;
+}
+.player{
+	margin:0 auto;
+	width:960px;
+	line-height:50px;
+	color:#E3E3E3;
+}
+.topcontainer{
+	margin:0 auto;
+	width:960px;
+	height:116px;
+	position:relative;
+}
+.logo{
+	width:130px;
+	height:46px;
+	overflow:hidden;
+	padding-top:50px;
+}
+.logo h1{
+	width:130px;
+	height:46px;
+	overflow:hidden;
+}
+.nav{
+	position:absolute;
+	top:38px;
+	left:160px;
+	width:800px;
+}
+.nav1,.nav2{
+	float:left;
+	position:relative;
+	padding:0 0 0 35px;
+}
+.nav1{
+	width:260px;
+	background:url('../images/nav_class_ico1.gif') 0 9px no-repeat;
+}
+.nav2{
+	background:url('../images/nav_class_ico2.gif') 0 10px no-repeat;
+}
+.navico{
+	position:absolute;
+	top:10px;
+	left:0;
+	width:35px;
+	height:40px;
+}
+.navmain{
+	height:34px;
+}
+.navbtn{
+	float:left;
+	width:83px;
+	height:34px;
+	position:relative;
+}
+.navbtn h2{
+	width:80px;
+	height:34px;
+	font-size:18px;
+	font-weight:normal;
+	text-align:center;
+	position:relative;
+}
+.navbtn h2 a{
+	display:block;
+	padding:9px 0 0 0;
+	width:80px;
+	height:25px;
+	text-shadow:0 1px #FBF9F4,0 -1PX #DCD3C5;
+	background:url('../images/nav_lst_arrow.gif') 71px 21px no-repeat;
+}
+.navbtn h2 em {
+	position:absolute;
+	top:-39px;
+	left:34px;
+	display:block;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	background:url('../images/nav_hover_arrow.gif') 0 0 no-repeat;
+}
+.navbtm{
+	padding:5px 0 0 14px;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+	color:#C0BFBA;
+}
+.navbtm a{
+	color:#525252;
+}
+.pipe {
+	margin:0 1px;
+	color:#96BB71;
+}
+.weather,.duoyun,.WeatherImg,.WeatherMaskTop,.WeatherMaskBtm,.Content{
+	height:350px;
+}
+.duoyun {
+	background:#3E9DCB url('../images/weather1_bg.png') 0 0 repeat-x;
+}
+.WeatherImg{
+	background:url('../images/weather1.jpg') center center no-repeat;
+}
+.WeatherMaskTop{
+	background:url('../images/weather_mask_top.png') center top repeat-x;
+}
+.WeatherMaskBtm{
+	background: url('../images/weather_mask_btm.png') center bottom repeat-x;
+}
+.Content{
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+}
+.NRtxt{
+	position: absolute;
+	left: 0;
+	bottom: 70px;
+	padding: 60px 0 0 10px;
+	background: url('../images/banner_title.png') 0 0 no-repeat;
+	color: #D9EBF7;
+}
+.BannerReel {
+	position: absolute;
+	top: 165px;
+	left: 0;
+	width: 100%;
+	height: 363px;
+	z-index: 9;
+	background: url('../images/weather_reel_bg.png') center top no-repeat;
+}
+.wp{
+	margin: 0 auto;
+	width: 960px;
+}
+.RadioSide{
+	float: left;
+	padding: 40px 0 10px 0;
+	width: 205px;
+	background: url('../images/ra_line_left.png') right 110px no-repeat;
+}
+.Rablock {
+	width: 180px;
+	height: 135px;
+	position: relative;
+	background: #EBE3CF url('../images/side_block_btm_bg.png') left bottom no-repeat;
+}
+.RaIco {
+	width: 33px;
+	height: 29px;
+	position: absolute;
+	top: -15px;
+	left: 73px;
+	background: url('../images/side_radio_ico.gif') 0 0 no-repeat;
+}
+.RaTitle {
+	padding: 0 0 8px 0;
+	background: url('../images/side_block_top_bg.png') 0 0 no-repeat;
+}
+.RaName {
+	padding: 12px 0 0 0;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	background: url('../images/side_block_t_bg.gif') center 24px no-repeat;
+	font-size: 16px;
+	font-family: "微软雅黑",Tahoma,Helvetica,Arial,sans-serif;
+}
+.QQgroup {
+	padding: 0 0 0 12px;
+	color: #A57F78;
+}
+.QQgroup a{
+	color: #A57F78;
+}
+.RaList {
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	width: 155px;
+	border-top: dashed 1px #B4AA9B;
+	line-height: 18px;
+}
+li{
+	list-style:none;
+}
+.corner{
+	width: 11px;
+	height: 21px;
+	position: absolute;
+	top: 57px;
+	right: -11px;
+	background: url('../images/side_block_r_corner.gif') 0 0 no-repeat;
+}
+.RaBtn {
+	margin: 20px 0 0 -2px;
+}
+.RaBtn li {
+	padding: 7px 0 0 0;
+}
+.RaBtn a {
+	display: block;
+	height: 40px;
+	line-height: 32px;
+	background: url('../images/ra_btn_bg.png') 0 -47px no-repeat;
+}
+.RaBtn span {
+	display: block;
+	width: 180px;
+	height: 32px;
+	text-align: right;
+}
+.ply span {
+	background: url('../images/ra_ico_all.gif') 10px 9px no-repeat;
+}
+.RaBtn span em {
+	font-style: normal;
+	color: #7F6F60;
+}
+.art span {
+	background: url('../images/ra_ico_all.gif') 10px -29px no-repeat;
+}
+.dvd span {
+	background: url('../images/ra_ico_all.gif') 10px -72px no-repeat;
+}
+.RaInf {
+	padding: 20px 0 0 0;
+	width: 180px;
+}
+.RaInf li {
+	height: 30px;
+	line-height: 30px;
+	border-bottom: dashed 1px #D2BEB9;
+	color: #A68078;
+	text-indent: 4px;
+}
+.RaInf li a {
+	padding: 0 7px 0 0;
+	font-weight: bold;
+	color: #333;
+}
+.radiomain{
+	width:734px;
+	float: right;
+	padding: 0 0 20px 0;
+	height:593px;
+}
+.radionew{
+	float:left;
+	padding:37px 0 0 0;
+	width:449px;
+	background-color:aliceblue;
+	height:567px;
+}
+.radioprogram{
+	float: right;
+	padding:40px 0 0 0;
+	width: 280px;
+	background-color:aquamarine;
+	height:573px;
+}
+.radionj{
+	float:left;
+	width: 960px;
+	height: 110px;
+	background-color: #E7CA74;
+	position: relative;
+}
+.mouthmusic{
+	float:left;
+	width: 960px;
+	height: 432px;
+	background: url('../images/ra_line_left.png') 200px center no-repeat;
+	background-color:white;
+}
+.taobao{
+	float:left;
+	margin: 25px 0 0 0;
+	height: 150px;
+}
+.newimg{
+	float:left;
+	margin: 25px 0 0 0;
+	width: 960px;
+	height: 150px;
+	position: relative;
+	background: #D8D0BA url('../images/guanzhu_img_bg.gif') left bottom repeat-x;
+}
+.newtxt{
+	float:left;
+	width:960px;
+	padding: 10px 0 0 0;
+	height: 90px;
+	background-color:#EBE3CF;
+}
+.SideBar {
+	float: left;
+	padding: 25px 0 0 0;
+	width: 205px;
+	background: url('../images/ra_line_left.png') right center no-repeat;
+}
+.one{
+	height:560px;
+}	
+.mainbody{
+	float: right;
+	padding: 25px 0 0 0;
+	width: 730px;
+	background-color:aliceblue;
+}
+.two{
+	height:291px;
+}
+.three{
+	height:563px;
+}
+.four{
+	height:487px;
+	background-color:aquamarine;
+}
+.bottomad{
+	width: 960px;
+	background-color: #EADFC9;
+	float:left;
+	height:150px;
+	background-color:aliceblue;
+}
+.bottom{
+	margin: 20px auto 0 auto;
+	width: 960px;
+	border-top: solid 2px #817162;
+	float:left;
+	height:212px;
+}
+.siteinfo{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	background: url('../images/desk_bg.jpg') 0 0 repeat;
+	color: white;
+}
